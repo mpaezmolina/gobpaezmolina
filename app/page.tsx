@@ -8,8 +8,8 @@ export default function Home() {
       <div className="relative">
         <Image
           className="relative"
-          src="/autogov_logo.jpg"
-          alt="AUTOGOV"
+          src="/gob.png"
+          alt="Gobernador de Córdoba"
           width={1000}
           height={37}
           priority
@@ -17,9 +17,7 @@ export default function Home() {
       </div>
       <hr className="border-1 border-gray-400 w-40 m-10" />
       <p className="left-0 top-0 flex w-full text-center justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-        Dream of a throne without a king. Remove from the world the need of any type of government
-        entity by building self-sufficient social and economic constructs with the power of
-        technology. And freedom!
+        <b>Gobernador Justo Páez Molina</b>. Nació en El Salto, el 7 de agosto de 1902. Político radical argentino y 52º Gobernador de Córdoba.
       </p>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left"></div>
