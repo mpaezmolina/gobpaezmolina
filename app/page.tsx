@@ -8,7 +8,7 @@ export default function Home() {
       <div className="relative">
         <Image
           className="relative"
-          src="/gob.png"
+          src="/gob.jpg"
           alt="Gobernador de Córdoba"
           width={1000}
           height={37}
