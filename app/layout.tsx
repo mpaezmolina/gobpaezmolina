@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Autogov",
-  description: "Empty throne.",
+  title: "Gobernador Justo Páez Molina",
+  description: "Gobernador Justo Páez Molina. Nació en El Salto, el 7 de agosto de 1902. Político radical argentino y 52º Gobernador de Córdoba.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
