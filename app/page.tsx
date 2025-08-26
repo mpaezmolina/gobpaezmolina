@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-4 lg:p-24 bg-[#060b14]">
+    <main className="flex min-h-screen flex-col items-center pt-2 pb-4 px-4 lg:pt-8 lg:pb-24 lg:px-24 bg-[#060b14]">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex"></div>
 
       <div className="relative w-full lg:w-auto">
@@ -19,6 +19,8 @@ export default function Home() {
       <hr className="border-1 border-gray-400 w-40 m-10" />
       <p className="left-0 top-0 flex w-full text-center justify-center border-b border-gray-300 bg-gradient-to-b from-white via-zinc-100 to-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-700/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-white lg:p-4 lg:dark:bg-zinc-700/30">
         Gobernador Justo Páez Molina. Nació en El Salto, el 7 de agosto de 1902. Político radical argentino y 52º Gobernador de Córdoba.
+        <br/>
+        Este sitio crecerá en contenido con el tiempo. Viene mucho mas, pronto.
       </p>
 
       <div className="flex flex-row justify-center items-center gap-8 w-full max-w-md my-8">
