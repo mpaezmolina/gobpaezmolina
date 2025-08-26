@@ -6,6 +6,7 @@ export default function Home() {
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex"></div>
 
       <div className="relative w-full lg:w-auto">
+        
         <Image
           className="relative w-full lg:w-auto"
           src="/gob.jpg"
@@ -20,21 +21,41 @@ export default function Home() {
         Gobernador Justo Páez Molina. Nació en El Salto, el 7 de agosto de 1902. Político radical argentino y 52º Gobernador de Córdoba.
       </p>
 
-      <div className="mt-6 mb-8">
+      <div className="flex flex-row justify-center items-center gap-8 w-full max-w-md my-8">
+        <div className="flex-1 flex justify-center">
+        <a 
+          href="https://es.wikipedia.org/wiki/Justo_P%C3%A1ez_Molina" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-block hover:opacity-80 transition-opacity"
+        >
+
+          <Image
+            src="/wik.png"
+            alt="Imagen 1"
+            width={60}
+            height={60}
+            className="rounded"
+          />
+          </a>
+        </div>
+        <div className="flex-1 flex justify-center">
         <a 
           href="https://www.instagram.com/justo.paez.molina/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="inline-block hover:opacity-80 transition-opacity"
         >
+
           <Image
             src="/instagram.png"
-            alt="Instagram"
-            width={40}
-            height={40}
-            className="w-10 h-10"
+            alt="Imagen 2"
+            width={60}
+            height={60}
+            className="rounded"
           />
-        </a>
+          </a>
+        </div>
       </div>
     </main>
   );
